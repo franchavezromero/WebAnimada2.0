@@ -21,8 +21,8 @@ button {
 }
 
 button:hover {
-    background-color: white;
-    color: purple;
+    background-color: transparent;
+    color: rgb(197, 65, 197);
 }
 
 
@@ -72,7 +72,7 @@ p.demos {
     width: 100%;
     height: 100%;
     z-index: 0;
-    background: black;
+    background: transparent;
 }
 
 .sp-content {
@@ -164,10 +164,10 @@ p.demos {
 
 .sp-globe {
     width: 282px;
-    height: 273px;
+    /*height: 273px;*/
     left: 50%;
     top: 50%;
-    margin: -137px 0 0 -141px;
+    /*margin: -137px 0 0 -141px;*/
     background: transparent url(http://web-sonick.zz.mu/images/sl/globe.png) no-repeat top left;
     -webkit-animation: fadeInBack 3.6s linear 14s backwards;
     -moz-animation: fadeInBack 3.6s linear 14s backwards;
